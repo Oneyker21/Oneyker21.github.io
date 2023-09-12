@@ -1,0 +1,114 @@
+/* Estilos generales para todos los tamaños de pantalla */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #3498db;
+}
+
+.links .link-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.links .link-item:hover {
+    transform: translateY(-5px);
+}
+
+.links .link-item a {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.links .link-item p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+
+.links .link-item a[href*="twitter.com"] {
+    color: #1DA1F2;
+}
+
+.links .link-item a[href*="facebook.com"] {
+    color: #1877F2;
+}
+
+.links .link-item a[href*="instagram.com"] {
+    color: #E4405F;
+}
+
+.links .link-item a[href*="linkedin.com"] {
+    color: #0A66C2;
+}
+
+.links .link-item a[href*="github.com"] {
+    color: #000000;
+}
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .links .link-item {
+        padding: 10px;
+    }
+
+
+    .social-icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+    }
+}
