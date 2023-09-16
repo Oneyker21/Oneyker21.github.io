@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    margin-top: 130px;
+    margin-top: 200px;
     padding-top: 130px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -28,17 +28,40 @@ body {
     max-width: 100%;
 }
 
-.centered-content {
-    text-align: center;
-}
-
 .header h1 {
     padding-top: 0%;
     margin-top: 0%;
     font-size: 36px;
     color: #3498db;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+
+.detalles .div1{
+    display: inline;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.detalles .div2{
+    display: inline;
+    font-size: 12px;
+    text-align: left;
+}
+.detalles p{
+    display: inline;
+}
+.detalles{
+    display: flex;
+    justify-content: safe;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.links{
+    margin-top: 20px;
+}
 .links .link-item {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
